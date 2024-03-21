@@ -1,11 +1,11 @@
 export const data = {
   "main": {
-    "name": "Jhon Doe",
+    "name": "Muhammed Rafeeq",
     "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
     "titles": [
       "Frontend Development",
       "Backend Development",
-      "App Development"
+      "Full Stack Development"
     ],
     "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
     "techStackImages": [
@@ -19,7 +19,7 @@ export const data = {
     "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
     "aboutImageCaption": "< I build stuff 🚀/>",
     "title": "Full Stack Developer",
-    "about": "I am a Full-Stack developer based in Pune, India. I'm an Information Technology undergraduate from SPPU, and my journey in web development began during my first year of college. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
+    "about": "I am a Full-Stack developer based in Kerala, India. I'm an Bachlor of Engineering undergraduate from JCET Coimbatore, and my journey in web development began during my first year of college. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
     "callUrl": "",
     "resumeUrl": ""
   },
@@ -100,9 +100,9 @@ export const data = {
       "duration": "2014 - 2016"
     },
     {
-      "institute": "XYZ College Of Engineering",
-      "degree": "B.Tech CSE",
-      "duration": "2016 - 2020",
+      "institute": "JCT College Of Engineering",
+      "degree": "B.E CSE",
+      "duration": "2019 - 2023",
       "desc": [
         "Pursuing IT Engineering course from ABC University",
         "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
