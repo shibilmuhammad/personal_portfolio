@@ -48,13 +48,83 @@ export const data = {
       "category": "Frontend"
     },
     {
+      "name": "React JS",
+      "image": "https://img.icons8.com/ultraviolet/120/null/react--v1.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Redux",
+      "image": "https://img.icons8.com/color/144/null/redux.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Tailwind",
+      "image": "https://img.icons8.com/color/144/null/tailwindcss.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "HTML 5",
+      "image": "https://img.icons8.com/color/144/null/html-5--v1.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "CSS 3",
+      "image": "https://img.icons8.com/color/144/null/css3.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Material UI",
+      "image": "https://img.icons8.com/color/144/null/material-ui.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Chakra",
+      "image": "https://img.icons8.com/color/144/null/chakra-ui.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Node JS",
+      "image": "https://img.icons8.com/fluency/144/null/node-js.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Express JS",
+      "image": "https://img.icons8.com/ios/144/null/express-js.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Mongo DB",
+      "image": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png",
+      "category": "Backend"
+    },
+    {
       "name": "Firebase",
       "image": "https://img.icons8.com/color/144/null/firebase.png",
       "category": "Backend"
     },
     {
+      "name": "AWS",
+      "image": "https://img.icons8.com/color/144/null/amazon-web-services.png",
+      "category": "Backend"
+    },
+    {
+      "name": "MySQL",
+      "image": "https://img.icons8.com/color/144/null/mysql-logo.png",
+      "category": "Backend"
+    },
+    {
+      "name": "Git",
+      "image": "https://img.icons8.com/color/144/null/git.png",
+      "category": "Tools"
+    },
+    {
       "name": "GitHub",
       "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "Tools"
+    },
+    {
+      "name": "Figma",
+      "image": "https://img.icons8.com/color/144/null/figma.png",
       "category": "Tools"
     }
   ],
