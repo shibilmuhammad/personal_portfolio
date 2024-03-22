@@ -129,77 +129,70 @@ export const data = {
     }
   ],
   "projects": [
-    {
-      "name": "Project Title",
-      "techstack": "HTML5, CSS3, JavaScript, jQuery",
-      "category": "MERN Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
-      "links": {
-        "code": "",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
-      "name": "Project Title",
-      "techstack": "Flutter, Dart, Firebase",
-      "category": "Flutter",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
-      "links": {
-        "code": "",
-        "video": "",
-        "visit": ""
-      }
-    },
+    
     {
       "name": "Project Title",
       "techstack": "PHP, MySQL, HTML5, CSS3, Bootstrap, JavaScript",
-      "category": "LAMP Stack",
+      "category": "Web Basics",
       "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
       "links": {
         "code": "",
         "video": "",
         "visit": ""
+      }
+    },
+    {
+      "name": "CodeLab-Project Showcasing Platform",
+      "techstack": "React JS, JavaScript, Node JS, Express JS, MongoDB",
+      "category": "MERN Stack",
+      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "links": {
+        "code": "f",
+        "video": "f",
+        "visit": "f"
+      }
+    },
+    {
+      "name": "CodeLab-Project Showcasing Platform",
+      "techstack": "React JS, JavaScript, Node JS, Express JS, MongoDB",
+      "category": "MERN Stack",
+      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "links": {
+        "code": "f",
+        "video": "f",
+        "visit": "f"
       }
     }
   ],
   "educations": [
     {
-      "institute": "XYZ School | CBSE",
-      "degree": "HSC Science",
-      "duration": "2014 - 2016"
-    },
-    {
       "institute": "JCT College Of Engineering",
       "degree": "B.E CSE",
       "duration": "2019 - 2023",
       "desc": [
-        "Pursuing IT Engineering course from ABC University",
+        "Completed B.E in Computer Science & Engineering course from Anna University",
         "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
-        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
-      ]
-    }
-  ],
-  "experiences": [
-    {
-      "company": "ABC Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2020 -2022",
-      "desc": [
-        "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "Familiar with software development methodologies and project management practices."
       ]
     },
     {
-      "company": "XYZ Tech Solutions",
-      "position": "Web Developer",
-      "duration": "2022 - present",
+      "institute": "KKMIA | NIOS",
+      "degree": "HSC Science",
+      "duration": "2017 - 2019"
+    }
+
+  ],
+  "experiences": [
+    {
+      "company": "CodeByte",
+      "position": "Freelance Web Developer",
+      "duration": "Current",
       "desc": [
         "Assisted with design and development of project.",
-        "Worked on building the product from scratch and built multiple dashboards.",
-        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · REST APIs"
+        "Worked on building the product from scratch and built multiple pages.",
+        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MongoDB · REST APIs"
       ]
     }
+    
   ]
 }

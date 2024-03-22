@@ -5,14 +5,14 @@ import Intro from '../components/Intro'
 
 const Home = () => {
   return (
-    <div className='h-full'>
-        <Header/>
+    <section id='home' className='h-full'>
+        
         <div className=''>
             <ImageCard/>
             <Intro/>
 
         </div>
-    </div>
+    </section>
   )
 }
 
