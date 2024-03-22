@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-scroll";
+import { changeTheme } from "../utils/themeSlice";
 
 export const Header = () => {
+	const theme = useSelector((store) => store?.theme?.theme)
+	const dispatch = useDispatch()
+	const changeMode = () => {
+		if(theme === 'light'){
+			dispatch(changeTheme('dark'))
+			
+		}else{
+			dispatch(changeTheme('light'))
+			
+		}
+		
+	}
 	return (
-		<header className="flex justify-between shadow-md p-3 items-center fixed top-0 z-auto w-full">
+		<header className="flex dark:bg-black justify-between shadow-md p-3 items-center fixed top-0 z-auto w-full">
 			<div className="">
 				<img className="h-9" src="/logo512.png" alt="logo" />
 			</div>
@@ -64,8 +78,8 @@ export const Header = () => {
 						Contact
 					</Link>
 				</div>
-				<button className="rounded-full h-7 w-7 md:hover:bg-gray-200 bg-gray-200 flex justify-center items-center">
-					<span class="material-symbols-outlined text-2xl text-gray-600">
+				<button onClick={changeMode} className="rounded-full h-10 w-10 p-2 md:hover:bg-gray-200 bg-gray-200 flex justify-center items-center">
+					<span  class="material-symbols-outlined text-xl text-gray-600">
 						dark_mode
 					</span>
 				</button>

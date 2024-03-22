@@ -16,11 +16,11 @@ const Experiences = () => {
 
     return (
         <section id="experience" className="min-h-screen">
-            <h2 className="text-4xl text-center">Experience</h2>
+            <h2 className="text-4xl text-center dark:text-white">Experience</h2>
 
             <div className="w-fit mx-auto mt-6 p-2 bg-white dark:bg-grey-800 rounded-md flex gap-2 items-center">
                 {['Experience', 'Education'].map((e, i) => (
-                    <button key={i} onClick={() => setShow(e)} className={`py-2 px-4 rounded-md transition-colors ${show === e ? 'bg-violet-600 text-white' : 'hover:bg-gray-100 hover:dark:bg-grey-900 text-black dark:text-whit'}`}>{e}</button>
+                    <button key={i} onClick={() => setShow(e)} className={`py-2 px-4 rounded-md transition-colors ${show === e ? 'bg-violet-600 text-white' : 'hover:bg-gray-100 hover:dark:bg-grey-900 text-black md:dark:text-white dark:text-whit'}`}>{e}</button>
                 ))
                 }
             </div>

@@ -25,7 +25,7 @@ const ProjectCard = ({ data }) => {
 			variants={cardVariants}
 			initial="hidden"
 			animate={inView ? "visible" : "hidden"}
-			className="flex flex-col gap-2 bg-white dark:bg-grey-800 rounded-lg p-2 border-2 shadow-2xl">
+			className="flex flex-col gap-2 bg-white dark:bg-grey-800 rounded-lg p-2  shadow-2xl">
 			<div className="relative group rounded-lg bg-violet-50">
 				<img
 					alt={data?.name}
@@ -67,7 +67,7 @@ const ProjectCard = ({ data }) => {
 			</div>
 
 			<div className="my-2 flex flex-col gap-3">
-				<h3 className="text-xl font-medium">{data?.name}</h3>
+				<h3 className="text-xl font-medium dark:text-white">{data?.name}</h3>
 				<p className="text-sm text-gray-400">
 					{" "}
 					<span className="font-medium">Tech Stack:</span> {data?.techstack}

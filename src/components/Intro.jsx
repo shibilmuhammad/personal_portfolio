@@ -19,15 +19,15 @@ const Intro = () => {
                     <div className="flex items-center gap-1">
                         <img className='h-8' src='/img/waving-hand.gif' alt='waving'/>
                         
-                        <p className="text-lg md:text-xl mt-2 md:mt-1.5">
+                        <p className="text-lg md:text-xl mt-2 md:mt-1.5 dark:text-white">
                             Hey
                         </p>
                     </div>
-                    <h1 className="text-4xl md:text-6xl font-bold relative">
+                    <h1 className="text-4xl md:text-6xl font-bold relative dark:text-white">
                         I&apos;m {data?.main?.name}
                     </h1>
                     <div className="flex flex-row items-start md:items-center gap-1.5">
-                        <h2 className="text-lg md:text-2xl">
+                        <h2 className="text-lg md:text-2xl dark:text-white">
                             I am into
                         </h2>
                         <Typewriter
@@ -43,7 +43,7 @@ const Intro = () => {
                         />
                     </div>
 
-                    <p className='text-sm md:text-base text-gray-600 '>
+                    <p className='text-sm md:text-base text-gray-600 dark:text-gray-300'>
                         {data?.main?.shortDesc}
                     </p>
 
