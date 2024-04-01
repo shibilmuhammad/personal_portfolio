@@ -25,20 +25,20 @@ export const data = {
   },
   "socials": [
     {
-      "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/in/jhon-doe"
+      "icon": "bi bi-linkedin",
+      "link": "https://www.linkedin.com/in/muhammed-rafeeq-259804255/"
     },
     {
-      "icon": "FaGithub",
-      "link": "https://github.com/jhon-doe"
+      "icon": "bi bi-github",
+      "link": "https://github.com/mrafeeq805"
     },
     {
-      "icon": "FaInstagram",
-      "link": "https://www.instagram.com/jhondoe"
+      "icon": "bi bi-instagram",
+      "link": "https://www.instagram.com/muhammedrafeeqvr"
     },
     {
-      "icon": "FaTwitter",
-      "link": "https://twitter.com/jhondoe"
+      "icon": "bi bi-twitter-x",
+      "link": "https://twitter.com/Muhamme72697233"
     }
   ],
   "skills": [
@@ -108,6 +108,11 @@ export const data = {
       "category": "Backend"
     },
     {
+      "name": "Microsoft Azure",
+      "image": "https://img.icons8.com/fluency/48/azure-1.png",
+      "category": "Backend"
+    },
+    {
       "name": "MySQL",
       "image": "https://img.icons8.com/color/144/null/mysql-logo.png",
       "category": "Backend"
@@ -131,38 +136,128 @@ export const data = {
   "projects": [
     
     {
-      "name": "Project Title",
-      "techstack": "PHP, MySQL, HTML5, CSS3, Bootstrap, JavaScript",
-      "category": "Web Basics",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "name": "CodeLab - Project Showcasing Platform",
+      "techstack": "React JS, JavaScript, Node JS, Express JS, MongoDB ,Tailwind",
+      "category": "Full Stack",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(274).png?alt=media&token=9f213ff5-eabb-4d74-8290-64d0e0020caf",
       "links": {
-        "code": "",
+        "code": "https://github.com/mrafeeq805/CodeLab",
         "video": "",
-        "visit": ""
+        "visit": "https://www.codelabz.online"
+      }
+    },
+    
+    {
+      "name": "ECMart - Ecommerce Plateform",
+      "techstack": "Tailwind, JavaScript, Node JS, Express JS, MongoDB",
+      "category": "Full Stack",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(276).png?alt=media&token=45d32e30-b841-47e5-a931-32aacbee77ea",
+      "links": {
+        "code": "https://github.com/mrafeeq805/ECMart-Ecommerce-Project",
+        "video": "",
+        "visit": "http://20.197.42.242/home"
       }
     },
     {
-      "name": "CodeLab-Project Showcasing Platform",
-      "techstack": "React JS, JavaScript, Node JS, Express JS, MongoDB",
-      "category": "MERN Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "name": "WeContact - Contact Manager",
+      "techstack": "Tailwind, JavaScript, Node JS, Express JS, MongoDB",
+      "category": "Full Stack",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(275).png?alt=media&token=813996f8-1d24-464d-a2f6-565d52e4a8a0",
       "links": {
-        "code": "f",
-        "video": "f",
-        "visit": "f"
+        "code": "https://github.com/mrafeeq805/WeContact-Contact-Manger",
+        "video": "",
+        "visit": "https://www.wecontact.onrender.com"
       }
     },
     {
-      "name": "CodeLab-Project Showcasing Platform",
-      "techstack": "React JS, JavaScript, Node JS, Express JS, MongoDB",
-      "category": "MERN Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "name": "Offline Contact Manager",
+      "techstack": "Tailwind, JavaScript, Node JS",
+      "category": "Basic",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(278).png?alt=media&token=70fa350c-a95a-40f9-9708-c74adb204a1a",
       "links": {
-        "code": "f",
-        "video": "f",
-        "visit": "f"
+        "code": "https://github.com/mrafeeq805/Contact-Card-Generator",
+        "video": "",
+        "visit": "https://mrafeeq805.github.io/Contact-Card-Generator/"
       }
-    }
+    },
+    {
+      "name": "Country Info",
+      "techstack": "Tailwind, JavaScript, Node JS ,React JS",
+      "category": "Basic",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(285).png?alt=media&token=3b0a6561-23d9-46b0-9527-5c5fc4261c3f",
+      "links": {
+        "code": "https://github.com/mrafeeq805/CountryInfo",
+        "video": "",
+        "visit": "https://worldcountry-info.vercel.app/"
+      }
+    },
+    {
+      "name": "Ramadan Countdown",
+      "techstack": "Tailwind, JavaScript, Node JS",
+      "category": "Basic",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(282).png?alt=media&token=bbb29ca6-f285-4097-ae56-f16d210fd906",
+      "links": {
+        "code": "https://github.com/mrafeeq805/Ramadan-Countdown",
+        "video": "",
+        "visit": "https://ramadan-countdown-app.vercel.app//"
+      }
+    },
+    {
+      "name": "Netflix GPT",
+      "techstack": "Tailwind, JavaScript, Node JS, React JS",
+      "category": "Basic",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(284).png?alt=media&token=365b1efd-1485-4142-8ad1-3e2862a0bc3f",
+      "links": {
+        "code": "https://github.com/mrafeeq805/netflix-gpt",
+        "video": "",
+        "visit": "https://netflix-gpt-webapp.vercel.app/"
+      }
+    },
+    {
+      "name": "Personal Portfolio",
+      "techstack": "Tailwind, JavaScript, Node JS, React JS",
+      "category": "Basic",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(283).png?alt=media&token=0950bc13-934d-4d28-aad7-898feebd4df3",
+      "links": {
+        "code": "https://github.com/mrafeeq805/personal-portfolio",
+        "video": "",
+        "visit": "https://personal-portfolio-stati.vercel.app/"
+      }
+    },
+    {
+      "name": "Paytm Clone",
+      "techstack": "HTML 5, CSS 3",
+      "category": "Basic",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(279).png?alt=media&token=9696b508-9c9a-4670-a595-75c4a0ab792f",
+      "links": {
+        "code": "https://github.com/mrafeeq805/Paytm-clone",
+        "video": "",
+        "visit": "https://paytm-web-clone-app.vercel.app/"
+      }
+    },
+    {
+      "name": "Tripadvisor Clone",
+      "techstack": "HTML 5, CSS 3",
+      "category": "Basic",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(280).png?alt=media&token=06a07352-8e3f-47a8-91fa-691608953aa4",
+      "links": {
+        "code": "https://github.com/mrafeeq805/TripAdvisor-Clone",
+        "video": "",
+        "visit": "https://trip-advisor-clone-app.vercel.app/"
+      }
+    },
+    {
+      "name": "Theoddinproject Clone",
+      "techstack": "HTML 5, CSS 3",
+      "category": "Basic",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(281).png?alt=media&token=286da534-2305-4d3d-8fa1-f7ef9f525b9b",
+      "links": {
+        "code": "https://github.com/mrafeeq805/Theoddinproject-clone",
+        "video": "",
+        "visit": "https://theoddinproject-clone.vercel.app/"
+      }
+    },
+    
   ],
   "educations": [
     {

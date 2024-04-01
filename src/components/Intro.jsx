@@ -28,7 +28,7 @@ const Intro = () => {
                     </h1>
                     <div className="flex flex-row items-start md:items-center gap-1.5">
                         <h2 className="text-lg md:text-2xl dark:text-white">
-                            I am into
+                            I am 
                         </h2>
                         <Typewriter
                             options={{

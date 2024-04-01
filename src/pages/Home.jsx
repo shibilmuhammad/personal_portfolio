@@ -5,7 +5,7 @@ import Intro from '../components/Intro'
 
 const Home = () => {
   return (
-    <section id='home' className='h-full mt-16'>
+    <section id='home' className='h-full'>
         
         <div className=''>
             <ImageCard/>

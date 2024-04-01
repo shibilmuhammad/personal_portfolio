@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import appStore from "./utils/appStore";
+import Socials from "./components/Socials";
 
 function App() {
 	const theme = useSelector((store) => store?.theme?.theme);
@@ -26,6 +27,7 @@ function App() {
 				<Projects />
 				<Experiences />
 				<Contact />
+        <Socials/>
 			</div>
 		
 	);

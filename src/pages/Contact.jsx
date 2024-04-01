@@ -1,56 +1,39 @@
 import axios from "axios";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+    const form = useRef();
 
-    const [values, setValues] = useState({
-        name: "",
-        email: "",
-        message: "",
-    });
     const [loading, setLoading] = useState(false);
     const [success, setSuccess] = useState(false);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        if (!values.name.trim() || !values.email.trim() || !values.message.trim()) {
-            toast.warning("Empty Fields!")
-            return false;
-        }
-
         setLoading(true);
-        axios.post("/api/mail", {
-            name: values.name,
-            email: values.email,
-            message: values.message,
-        }).then((res) => {
-            if (res.status === 200) {
-                setValues({ name: "", email: "", message: "" });
-                setLoading(false);
-                setSuccess(true);
-                toast.success(res.data.message)
-            } else {
-                setLoading(false);
-                toast.error(res.data.message)
-            }
-        }).catch((err) => {
+        emailjs
+      .sendForm('service_xq18d8t', 'template_bwjnjn8', form.current, {
+        publicKey: '1Y_DRkp-cAXhW2jGP',
+      })
+      .then(
+        () => {
             setLoading(false);
-            toast.error(err.message)
-        });
+            setSuccess(true);
+            toast.success("Sent Successfully")
+        },
+        (error) => {
+            setLoading(false);
+            toast.error("error")
+            console.log(error);
+        },
+      );
+        
     };
-
-    const handleChange = (e) => {
-        setValues((prevInput) => ({
-            ...prevInput,
-            [e.target.name]: e.target.value,
-        }));
-    };
-
     return (
-        <section id="contact" className="mb-16 mx-4 lg:mx-0">
+        <section id="contact" className="pb-16 mx-4 lg:mx-0">
             <h2 className="text-center text-4xl dark:text-white">Contact Me</h2>
             <ToastContainer />
 
@@ -61,12 +44,12 @@ const Contact = () => {
                     <h3 className="text-2xl dark:text-white">Get in touch</h3>
                     <p className="text-gray-400 mb-4 text-sm md:text-base">My inbox is always open. Whether you have a question or just want to say hello, I will try my best to get back to you!</p>
 
-                    <form onSubmit={handleSubmit} className="flex flex-col gap-4 rounded-xl">
-                        <input onChange={handleChange} required value={values.name} name="name" type="text" placeholder='Full Name *' className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
-                        <input onChange={handleChange} required value={values.email} name="email" type="email" placeholder='Email *' className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
-                        <textarea onChange={handleChange} required value={values.message} name="message" rows={4} placeholder='Message *' className="outline-none resize-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
+                    <form onSubmit={handleSubmit} ref={form} className="flex flex-col gap-4 rounded-xl">
+                        <input required  name="user_name" type="text" placeholder='Full Name *' className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
+                        <input required name="user_email" type="email" placeholder='Email *' className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
+                        <textarea required name="message" rows={4} placeholder='Message *' className="outline-none resize-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
                         <button disabled={loading} className="px-4 py-2 bg-violet-600 hover:bg-violet-700 transition-colors text-white rounded-lg disabled:cursor-not-allowed self-end">
-                            {loading ? <span className="flex items-center gap-2">Say Hello </span> : "Say Hello 👋"}
+                            {loading ? <span className="flex items-center gap-2 ">Say Hello <i class="bi bi-arrow-clockwise animate-spin"></i> </span> : "Say Hello 👋"}
                         </button>
                     </form>
                 </div>
