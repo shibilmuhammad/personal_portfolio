@@ -39,28 +39,28 @@ const ProjectCard = ({ data }) => {
 					data?.links.video.trim()) && (
 					<div className="absolute top-0 scale-x-0 group-hover:scale-100 transition-transform origin-left duration-200 ease-linear bg-gray-800 bg-opacity-60 w-full h-full rounded-lg flex items-center gap-4 justify-center">
 						{data?.links.visit.trim() && (
-							<Link
+							<a
 								href={data?.links.visit}
 								target="_blank"
 								className="bg-white text-black p-2 rounded-lg hover:bg-black hover:text-white transition-all px-3">
 								<i class="bi bi-app-indicator"></i>
-							</Link>
+							</a>
 						)}
 						{data?.links.code.trim() && (
-							<Link
+							<a
 								href={data?.links.code}
 								target="_blank"
 								className="bg-white text-black p-2 rounded-lg hover:bg-black hover:text-white transition-all px-3">
 								<i class="bi bi-github"></i>
-							</Link>
+							</a>
 						)}
 						{data?.links.video.trim() && (
-							<Link
+							<a
 								href={data?.links.video}
 								target="_blank"
 								className="bg-white text-black p-2 rounded-lg hover:bg-black hover:text-white transition-all px-3">
 								<i class="bi bi-camera-video"></i>
-							</Link>
+							</a>
 						)}
 					</div>
 				)}

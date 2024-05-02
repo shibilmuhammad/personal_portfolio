@@ -44,11 +44,12 @@ const Contact = () => {
                     <h3 className="text-2xl dark:text-white">Get in touch</h3>
                     <p className="text-gray-400 mb-4 text-sm md:text-base">My inbox is always open. Whether you have a question or just want to say hello, I will try my best to get back to you!</p>
 
-                    <form onSubmit={handleSubmit} ref={form} className="flex flex-col gap-4 rounded-xl">
-                        <input required  name="user_name" type="text" placeholder='Full Name *' className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
-                        <input required name="user_email" type="email" placeholder='Email *' className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
+                    <form action="https://api.web3forms.com/submit" method="POST" ref={form} className="flex flex-col gap-4 rounded-xl">
+                        <input type="hidden" name="access_key" value="70236dcb-aa95-43a5-8ec3-497db303f7e4"/>
+                        <input required  name="name" type="text" placeholder='Full Name *' className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
+                        <input required name="email" type="email" placeholder='Email *' className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
                         <textarea required name="message" rows={4} placeholder='Message *' className="outline-none resize-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" />
-                        <button disabled={loading} className="px-4 py-2 bg-violet-600 hover:bg-violet-700 transition-colors text-white rounded-lg disabled:cursor-not-allowed self-end">
+                        <button disabled={loading} type="submit" className="px-4 py-2 bg-violet-600 hover:bg-violet-700 transition-colors text-white rounded-lg disabled:cursor-not-allowed self-end">
                             {loading ? <span className="flex items-center gap-2 ">Say Hello <i class="bi bi-arrow-clockwise animate-spin"></i> </span> : "Say Hello 👋"}
                         </button>
                     </form>

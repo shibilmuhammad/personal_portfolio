@@ -1,6 +1,6 @@
 export const data = {
   "main": {
-    "name": "Muhammed Rafeeq",
+    "name": "Shibil Muhammad ",
     "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
     "titles": [
       "Frontend Development",
@@ -19,26 +19,26 @@ export const data = {
     "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
     "aboutImageCaption": "< I build stuff 🚀/>",
     "title": "Full Stack Developer",
-    "about": "I am a Full-Stack developer based in Kerala, India. I'm an Bachlor of Engineering undergraduate from JCET Coimbatore, and my journey in web development began during my first year of college. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
+    "about": "Hey there! I'm a self-taught Full Stack Developer currently at IDENTITIE ENRICHMENT in Chennai. With a background in freelancing, I thrive on crafting seamless digital experiences using React, Express, MongoDB, and more. Let's connect and create something amazing together!.",
     "callUrl": "",
     "resumeUrl": ""
   },
   "socials": [
     {
       "icon": "bi bi-linkedin",
-      "link": "https://www.linkedin.com/in/muhammed-rafeeq-259804255/"
+      "link": "https://www.linkedin.com/in/shibil-muhammad-487a152a1/"
     },
     {
       "icon": "bi bi-github",
-      "link": "https://github.com/mrafeeq805"
+      "link": "https://github.com/shibilmuhammad"
     },
     {
       "icon": "bi bi-instagram",
-      "link": "https://www.instagram.com/muhammedrafeeqvr"
+      "link": "https://www.instagram.com/shibilmuhammad_p.k"
     },
     {
       "icon": "bi bi-twitter-x",
-      "link": "https://twitter.com/Muhamme72697233"
+      "link": "https://twitter.com/"
     }
   ],
   "skills": [
@@ -134,50 +134,16 @@ export const data = {
     }
   ],
   "projects": [
-    
-    {
-      "name": "CodeLab - Project Showcasing Platform",
-      "techstack": "React JS, JavaScript, Node JS, Express JS, MongoDB ,Tailwind",
-      "category": "Full Stack",
-      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(274).png?alt=media&token=9f213ff5-eabb-4d74-8290-64d0e0020caf",
-      "links": {
-        "code": "https://github.com/mrafeeq805/CodeLab",
-        "video": "",
-        "visit": "https://www.codelabz.online"
-      }
-    },
-    
-    {
-      "name": "ECMart - Ecommerce Plateform",
-      "techstack": "Tailwind, JavaScript, Node JS, Express JS, MongoDB",
-      "category": "Full Stack",
-      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(276).png?alt=media&token=45d32e30-b841-47e5-a931-32aacbee77ea",
-      "links": {
-        "code": "https://github.com/mrafeeq805/ECMart-Ecommerce-Project",
-        "video": "",
-        "visit": "http://20.197.42.242/home"
-      }
-    },
-    {
-      "name": "WeContact - Contact Manager",
-      "techstack": "Tailwind, JavaScript, Node JS, Express JS, MongoDB",
-      "category": "Full Stack",
-      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(275).png?alt=media&token=813996f8-1d24-464d-a2f6-565d52e4a8a0",
-      "links": {
-        "code": "https://github.com/mrafeeq805/WeContact-Contact-Manger",
-        "video": "",
-        "visit": "https://www.wecontact.onrender.com"
-      }
-    },
+  
     {
       "name": "Offline Contact Manager",
       "techstack": "Tailwind, JavaScript, Node JS",
       "category": "Basic",
-      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(278).png?alt=media&token=70fa350c-a95a-40f9-9708-c74adb204a1a",
+      "image": "https://firebasestorage.googleapis.com/v0/b/netflix-gpt-64d99.appspot.com/o/Screenshot%202024-05-02%20at%2012.35.11%E2%80%AFPM.png?alt=media&token=74301b69-452f-4ff3-b040-2c8c3342e3eb",
       "links": {
-        "code": "https://github.com/mrafeeq805/Contact-Card-Generator",
+        "code": "https://github.com/shibilmuhammad/Contact-Manager",
         "video": "",
-        "visit": "https://mrafeeq805.github.io/Contact-Card-Generator/"
+        "visit": "https://shibilmuhammad.github.io/Contact-Manager/"
       }
     },
     {
@@ -186,20 +152,9 @@ export const data = {
       "category": "Basic",
       "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(285).png?alt=media&token=3b0a6561-23d9-46b0-9527-5c5fc4261c3f",
       "links": {
-        "code": "https://github.com/mrafeeq805/CountryInfo",
+        "code": "https://github.com/shibilmuhammad/",
         "video": "",
         "visit": "https://worldcountry-info.vercel.app/"
-      }
-    },
-    {
-      "name": "Ramadan Countdown",
-      "techstack": "Tailwind, JavaScript, Node JS",
-      "category": "Basic",
-      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(282).png?alt=media&token=bbb29ca6-f285-4097-ae56-f16d210fd906",
-      "links": {
-        "code": "https://github.com/mrafeeq805/Ramadan-Countdown",
-        "video": "",
-        "visit": "https://ramadan-countdown-app.vercel.app//"
       }
     },
     {
@@ -208,86 +163,90 @@ export const data = {
       "category": "Basic",
       "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(284).png?alt=media&token=365b1efd-1485-4142-8ad1-3e2862a0bc3f",
       "links": {
-        "code": "https://github.com/mrafeeq805/netflix-gpt",
+        "code": "https://github.com/shibilmuhammad/Netflix-gpt",
         "video": "",
         "visit": "https://netflix-gpt-webapp.vercel.app/"
       }
     },
+      
     {
-      "name": "Personal Portfolio",
-      "techstack": "Tailwind, JavaScript, Node JS, React JS",
-      "category": "Basic",
-      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(283).png?alt=media&token=0950bc13-934d-4d28-aad7-898feebd4df3",
+      "name": "CodeLab - Project Showcasing Platform",
+      "techstack": "React JS, JavaScript, Node JS, Express JS, MongoDB ,Tailwind",
+      "category": "Full Stack",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(274).png?alt=media&token=9f213ff5-eabb-4d74-8290-64d0e0020caf",
       "links": {
-        "code": "https://github.com/mrafeeq805/personal-portfolio",
+        "code": "https://github.com/shibilmuhammad/code_Lab",
         "video": "",
-        "visit": "https://personal-portfolio-stati.vercel.app/"
-      }
-    },
-    {
-      "name": "Paytm Clone",
-      "techstack": "HTML 5, CSS 3",
-      "category": "Basic",
-      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(279).png?alt=media&token=9696b508-9c9a-4670-a595-75c4a0ab792f",
-      "links": {
-        "code": "https://github.com/mrafeeq805/Paytm-clone",
-        "video": "",
-        "visit": "https://paytm-web-clone-app.vercel.app/"
-      }
-    },
-    {
-      "name": "Tripadvisor Clone",
-      "techstack": "HTML 5, CSS 3",
-      "category": "Basic",
-      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(280).png?alt=media&token=06a07352-8e3f-47a8-91fa-691608953aa4",
-      "links": {
-        "code": "https://github.com/mrafeeq805/TripAdvisor-Clone",
-        "video": "",
-        "visit": "https://trip-advisor-clone-app.vercel.app/"
-      }
-    },
-    {
-      "name": "Theoddinproject Clone",
-      "techstack": "HTML 5, CSS 3",
-      "category": "Basic",
-      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(281).png?alt=media&token=286da534-2305-4d3d-8fa1-f7ef9f525b9b",
-      "links": {
-        "code": "https://github.com/mrafeeq805/Theoddinproject-clone",
-        "video": "",
-        "visit": "https://theoddinproject-clone.vercel.app/"
+        "visit": "https://www.codelabz.online"
       }
     },
     
-  ],
-  "educations": [
     {
-      "institute": "JCT College Of Engineering",
-      "degree": "B.E CSE",
-      "duration": "2019 - 2023",
-      "desc": [
-        "Completed B.E in Computer Science & Engineering course from Anna University",
-        "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
-        "Familiar with software development methodologies and project management practices."
-      ]
+      "name": "BinBooks - Ecommerce Plateform",
+      "techstack": "Tailwind, JavaScript, Node JS, Express JS, MongoDB",
+      "category": "Full Stack",
+      "image": "https://firebasestorage.googleapis.com/v0/b/netflix-gpt-64d99.appspot.com/o/Screenshot%202024-05-02%20at%2010.07.21%E2%80%AFAM.png?alt=media&token=f46971a7-bc17-4534-a91a-3f7d1e9ece33",
+      "links": {
+        "code": "https://github.com/shibilmuhammad/binbooks",
+        "video": "",
+        "visit": "https://binbooks.online/"
+      }
     },
     {
-      "institute": "KKMIA | NIOS",
-      "degree": "HSC Science",
-      "duration": "2017 - 2019"
-    }
+      "name": "WeContact - Contact Manager",
+      "techstack": "Tailwind, JavaScript, Node JS, Express JS, MongoDB",
+      "category": "Full Stack",
+      "image": "https://firebasestorage.googleapis.com/v0/b/codelab-95a3d.appspot.com/o/portfolio-thumbnails%2FScreenshot%20(275).png?alt=media&token=813996f8-1d24-464d-a2f6-565d52e4a8a0",
+      "links": {
+        "code": "https://github.com/shibilmuhammad/We-contact",
+        "video": "",
+        "visit": "https://www.wecontact.onrender.com"
+      }
+    },
+
+   
+    
+  ],
+  "educations": [
+    // {
+    //   "institute": "JCT College Of Engineering",
+    //   "degree": "B.E CSE",
+    //   "duration": "2019 - 2023",
+    //   "desc": [
+    //     "Completed B.E in Computer Science & Engineering course from Anna University",
+    //     "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
+    //     "Familiar with software development methodologies and project management practices."
+    //   ]
+    // },
+    // {
+    //   "institute": "KKMIA | NIOS",
+    //   "degree": "HSC Science",
+    //   "duration": "2017 - 2019"
+    // }
 
   ],
   "experiences": [
+   
     {
       "company": "CodeByte",
       "position": "Freelance Web Developer",
-      "duration": "Current",
+      "duration": "Last month",
       "desc": [
         "Assisted with design and development of project.",
         "Worked on building the product from scratch and built multiple pages.",
         "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MongoDB · REST APIs"
       ]
-    }
+    },
+    {
+      "company": "IDENTITE ENRICHMENT",
+      "position": "Full Stack Web Developer",
+      "duration": "Current",
+      "desc": [
+        "",
+        "Working on building the product from scratch and built multiple pages Including Products and Services.",
+        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MongoDB · REST APIs"
+      ]
+    },
     
   ]
 }
